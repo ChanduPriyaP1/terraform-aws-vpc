@@ -18,11 +18,11 @@ output "vpc_id" {
 }
 
 output "database_subnet_group_id" {
-  value = aws_db_subnet_group.default.id
+  value = aws_db_subnet_group.data.id
 }
 
 output "database_subnet_group_name" {
-  value = aws_db_subnet_group.default.name
+  value = aws_db_subnet_group.data.name
 }
 
 output "igw_id" {
